@@ -18,9 +18,7 @@ int main() {
 	return 0;
 }
 
-void print_arr(int arr[], int len) {
-	for (int i = 0; i < len; printf("%d ", arr[i++]));
-}
+void print_arr(int arr[], int len) { for (int i = 0; i < len; printf("%d ", arr[i++])); }
 
 void bubble_sort(int arr[], int len) {
 	int tmp;
